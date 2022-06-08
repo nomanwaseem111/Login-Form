@@ -1,0 +1,68 @@
+form {
+    width: 500px;
+    height: 100%;
+    border: 1px solid black;
+    padding: 40px;
+    margin: 140px auto;
+    border-radius: 15px;
+    background-image: linear-gradient(pink,blue);
+    border: none;
+    
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    font-size: 1em;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 60px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+input.email {
+    background-image: url('https://www.iconpacks.net/icons/2/free-send-mail-icon-2574-thumb.png');
+    background-size: 40px;
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 50px;
+
+}
+
+
+input.password {
+    background-image: url('https://icons-for-free.com/download-icon-lock+password+protect+safety+security+icon-1320086045132546966_512.png');
+    background-size: 40px;
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 50px;
+
+}
+
+button {
+    margin: 5px;
+    margin-left: 60px;
+    padding: 10px;
+    width: 80px;
+    height: 100%;
+    border: none;
+    background-color: black;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+background-color: white;
+color: black;
+}
